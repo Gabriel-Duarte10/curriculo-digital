@@ -6,17 +6,18 @@ figure.Imagem img {
 }
 
 .Esquerda {
-    height: 1220px;
+    height: 1550px;
     position: absolute;
     width: 40%;
     margin-top: -10px;
     margin-left: -10px;
     font-size: 14pt;
+    text-align: justify;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .Direita {
-    height: 1220px;
+    height: 1550px;
     width: 60%;
     display: flex;
     position: relative;
@@ -24,13 +25,14 @@ figure.Imagem img {
     margin-top: -10px;
     margin-left: -10px;
     font-size: 14pt;
+    text-align: justify;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
     .Direita {
         left: 16%;
-        top: 1420px;
+        top: 1470px;
         width: 20%;
     }
     .Esquerda {
@@ -41,12 +43,11 @@ figure.Imagem img {
 @media screen and (max-width: 838px) {
     .Direita {
         left: 10px;
-        top: 1420px;
+        top: 1470px;
         margin-bottom: 1400px;
     }
     .Esquerda {
         left: -40px;
-        width: 100%;
     }
 }
 
@@ -67,14 +68,17 @@ nav#MenuDireita {
     margin-left: 30px;
     margin-top: 62px;
     position: absolute;
+    text-align: justify;
 }
 
 nav#MenuDireita.form {
     margin-top: 280px;
+    text-align: justify;
 }
 
 nav#MenuDireita.Cursos {
-    margin-top: 640px;
+    margin-top: 735px;
+    text-align: justify;
 }
 
 nav#PerfilR.resposta {
@@ -96,7 +100,7 @@ nav#HabilidadesR.resposta {
     margin-left: 275px;
     line-height: 28px;
     width: 300px;
-    margin-top: 126px;
+    margin-top: 128px;
 }
 
 h1 {
@@ -127,6 +131,7 @@ h1 {
     margin-left: 10px;
     height: 10px;
     position: absolute;
+    margin-top: 20px;
 }
 
 .linhasup {
