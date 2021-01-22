@@ -1,6 +1,7 @@
 Histórico
 * .log
 npm-debug.log *
+.png
 
 # Dados de tempo de execução
 pids
