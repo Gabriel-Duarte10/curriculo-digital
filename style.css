@@ -55,10 +55,36 @@ div#DivPergunta {
     position: absolute;
 }
 
+div#DivResposta {
+    position: absolute;
+}
+
 nav#MenuPergunta.pergunta {
     margin-left: 100px;
     line-height: 28px;
     width: 200px;
+}
+
+nav#PerfilR.resposta {
+    margin-left: 250px;
+    line-height: 28px;
+    width: 300px;
+    margin-top: 80px;
+}
+
+nav#ContatoR.resposta {
+    margin-left: 200px;
+    line-height: 28px;
+    width: 300px;
+    margin-top: 90px;
+    font-size: 13pt;
+}
+
+nav#HabilidadesR.resposta {
+    margin-left: 275px;
+    line-height: 28px;
+    width: 300px;
+    margin-top: 130px;
 }
 
 nav#MenuDireita {
@@ -79,28 +105,6 @@ nav#MenuDireita.form {
 nav#MenuDireita.Cursos {
     margin-top: 735px;
     text-align: justify;
-}
-
-nav#PerfilR.resposta {
-    margin-left: 250px;
-    line-height: 28px;
-    width: 300px;
-    margin-top: 95px;
-}
-
-nav#ContatoR.resposta {
-    margin-left: 200px;
-    line-height: 28px;
-    width: 300px;
-    margin-top: 94px;
-    font-size: 13pt;
-}
-
-nav#HabilidadesR.resposta {
-    margin-left: 275px;
-    line-height: 28px;
-    width: 300px;
-    margin-top: 128px;
 }
 
 h1 {
