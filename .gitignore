@@ -1,7 +1,10 @@
+# Criado por https://www.gitignore.io/api/node,bower,osx,linux,windows,dropbox,sass,less,grunt,sublimetext,code
+
+# ## Nó ###
+# Logs
 Histórico
 * .log
 npm-debug.log *
-.png
 
 # Dados de tempo de execução
 pids
